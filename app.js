@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function(req, res){
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.write(JSON.stringify({cities : ["San Francisco","Amsterdam", "Berlin", "New York", "Palo ALto", "HYD"]}));
+    res.write(JSON.stringify({cities : ["San Francisco","Amsterdam", "Berlin", "New York", "Palo ALto", "HYDERABAD"]}));
     res.end();
 });
 
