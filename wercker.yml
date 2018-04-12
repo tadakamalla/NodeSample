@@ -28,6 +28,6 @@ build:
         username: $USERNAME
         password: $PASSWORD
         repository: tadakamalla/nodesample
-        registry: https://index.docker.io/v1/
+        registry: https://hub.docker.com/r/tadakamalla/nodesample/
 
     
